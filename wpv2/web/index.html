@@ -7,7 +7,14 @@
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <title>Robonetix : Home</title>
         <!-- Favicon  use this for tab icon-->
-       <link rel="shortcut icon" type="image/icon" href="img/robonetix.png"/>
+        <link rel="shortcut icon" type="image/icon" href="img/robonetix.png"/>
+
+        <!-- -->
+        <link rel="shortcut icon" type="image/icon" href="video.css"/>
+        <script src="videoj.js">
+
+        </script>
+       
         <!-- Font Awesome -->
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
         <!-- Bootstrap -->
@@ -34,6 +41,8 @@
           <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
+
+
     </head>
     <body>
 
@@ -44,12 +53,12 @@
         <!-- End scroll top btn -->
 
         <!-- Start preloader -->
-<!--        <div id="ol-preloader-wrapper">
-            <div class="ol-preloader-one">
-                <span></span>
-                <span></span>
-            </div>
-        </div>-->
+        <!--        <div id="ol-preloader-wrapper">
+                    <div class="ol-preloader-one">
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>-->
         <!-- End preloader -->
 
         <!-- Start Header -->
@@ -149,50 +158,72 @@
         </div>
         <!-- End side menu  -->
 
+        <div class="homepage-hero-module">
+            <div class="video-container">
+                <div class="filter"></div>
+                <video autoplay loop class="fillWidth">
+                    <source src="vid/PC-Typing.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+                    <source src="vid/PC-Typingw.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+                </video>
+<!--                <div class="overlay">
+                    <p>Wn with us</p>
+                    <form>
+                        <p>Slide down</p>
+                        <label for="input">Form Input Label</label>
+                        <input id="input" name="input" value="" />
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>-->
+                <div class="poster hidden">
+                    <img src="img/PC-Typingj.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
         <!-- Start Main Slider -->
         <!-- Start Wrapper -->
-        <div class="ol-wrapper">
-            <section id="ol-main-slider">
-                <div class="flexslider">
-                    <ul class="slides">
+        <!--        <div class="ol-wrapper">
+                    <section id="ol-main-slider">
+                        <div class="flexslider">
+                            <ul class="slides">
+        
+                                 start single slide item 
+                                <li>
+                                    <img src="img/main-slider/img-1.jpg" alt="img-1" data-rjs="img/main-slider/img-1@2x.jpg">
+                                    <div class="ol-main-slider-content">
+                                        <h2>Start Your Business With Us</h2>
+                                         <p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, ut, sint, nulla, vero recusandae possimus autem eligendi officia repudiandae.</p>
+                                          <a class="ol-button ol-learn-more" href="#">Learn More</a>
+                                    </div>
+                                </li>
+                                 End single slide item 
+        
+                                 start single slide item 
+                                <li>
+                                    <img src="img/main-slider/img-2.jpg" alt="img-2" data-rjs="img/main-slider/img-2@2x.jpg">
+                                    <div class="ol-main-slider-content">
+                                        <h2>We Are Creative & Powerfull</h2>
+                                        <p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, ut, sint, nulla, vero recusandae possimus autem eligendi officia repudiandae.</p> 
+                                        <a class="ol-button ol-learn-more" href="#">Learn More</a>
+                                    </div>
+                                </li>
+                                 end single slide item 
+        
+                                 start single slide item 
+                                <li>
+                                    <img src="img/main-slider/img-3.jpg" alt="img-3" data-rjs="img/main-slider/img-3@2x.jpg">
+                                    <div class="ol-main-slider-content">
+                                        <h2>We Build Brand</h2>
+        
+        <!-- <a class="ol-button ol-learn-more" href="#">Learn More</a>
+    </div>
+</li>
+ end single slide item 
 
-                        <!-- start single slide item -->
-                        <li>
-                            <img src="img/main-slider/img-1.jpg" alt="img-1" data-rjs="img/main-slider/img-1@2x.jpg">
-                            <div class="ol-main-slider-content">
-                                <h2>Start Your Business With Us</h2>
-                                <!-- <p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, ut, sint, nulla, vero recusandae possimus autem eligendi officia repudiandae.</p>-->
-                                <!--  <a class="ol-button ol-learn-more" href="#">Learn More</a>-->
-                            </div>
-                        </li>
-                        <!-- End single slide item -->
-
-                        <!-- start single slide item -->
-                        <li>
-                            <img src="img/main-slider/img-2.jpg" alt="img-2" data-rjs="img/main-slider/img-2@2x.jpg">
-                            <div class="ol-main-slider-content">
-                                <h2>We Are Creative & Powerfull</h2>
-                                <!--<p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, ut, sint, nulla, vero recusandae possimus autem eligendi officia repudiandae.</p> -->
-                                <!--<a class="ol-button ol-learn-more" href="#">Learn More</a>-->
-                            </div>
-                        </li>
-                        <!-- end single slide item -->
-
-                        <!-- start single slide item -->
-                        <li>
-                            <img src="img/main-slider/img-3.jpg" alt="img-3" data-rjs="img/main-slider/img-3@2x.jpg">
-                            <div class="ol-main-slider-content">
-                                <h2>We Build Brand</h2>
-
-                                <!-- <a class="ol-button ol-learn-more" href="#">Learn More</a>-->
-                            </div>
-                        </li>
-                        <!-- end single slide item -->
-
-                    </ul>
-                </div>
-            </section>
-        </div>
+</ul>
+</div>
+</section>
+</div>-->
         <!-- End Wrapper -->
         <!-- End Main Slider -->
 
@@ -747,7 +778,7 @@
                                             I highly encourage you to learn what Blue Fountain has to offer your organization.
 
                                         </p>
-<!--                                        <a href="#" class="ol-button ol-learn-more">More Info</a>-->
+                                        <!--                                        <a href="#" class="ol-button ol-learn-more">More Info</a>-->
                                     </div>
                                 </div>
                             </div>
@@ -1165,7 +1196,7 @@
                             <div class="col-md-7">	
                                 <div class="ol-contact-right">	
                                     <div class="ol-contact-map">
-                                       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3170.3385750509738!2d-122.06363784865971!3d37.381824579734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb6dfd07ff8f7%3A0x14071a14d2c53868!2s523+Sylvan+Ave%2C+Mountain+View%2C+CA+94041%2C+USA!5e0!3m2!1sen!2sbd!4v1470131647678" allowfullscreen></iframe>
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3170.3385750509738!2d-122.06363784865971!3d37.381824579734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb6dfd07ff8f7%3A0x14071a14d2c53868!2s523+Sylvan+Ave%2C+Mountain+View%2C+CA+94041%2C+USA!5e0!3m2!1sen!2sbd!4v1470131647678" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
