@@ -1110,8 +1110,8 @@
                                             </div>
 
                                             <div class="ol-subscribe-content">
-                                                <form class="ol-subscribe-form">
-                                                    <input type="email" placeholder="Enter your Email" />
+                                                <form class="ol-subscribe-form" action="subscribe">
+                                                    <input type="email" name="email" placeholder="Enter your Email" />
                                                     <button class="ol-subcribe-btn" type="submit">Subscribe</button>
                                                     <p>We will never send you any kind of spam.</p>
                                                 </form>
@@ -1167,18 +1167,18 @@
                                     </div>
 
                                     <div class="ol-contact-form">
-                                        <form class="wpcf7-form" action="SUBMITEMAILTO:eamitmgr@gmail.com" method="post" enctype="text/plain">
+                                        <form class="wpcf7-form" action="sendMail" method="get">
                                             <fieldset class="ol-form-group">
-                                                <input class="wpcf7-form-control wpcf7-text" type="text" placeholder="Name"/>
+                                                <input class="wpcf7-form-control wpcf7-text" name="name" type="text" placeholder="Name" required="true"/>
                                             </fieldset>
                                             <fieldset class="ol-form-group">
-                                                <input class="wpcf7-form-control wpcf7-text" type="email" placeholder="Email"/>
+                                                <input class="wpcf7-form-control wpcf7-text" name="email" type="email" placeholder="Email" required="true"/>
                                             </fieldset>
                                             <fieldset class="ol-form-group">
-                                                <input class="wpcf7-form-control wpcf7-text" type="text" placeholder="Subject"/>
+                                                <input class="wpcf7-form-control wpcf7-text" name="subject" type="text" placeholder="Subject" required="true"/>
                                             </fieldset>
                                             <fieldset class="ol-form-group">
-                                                <textarea class="wpcf7-form-control wpcf7-textarea" rows="10" cols="40" placeholder="Message"></textarea>
+                                                <textarea class="wpcf7-form-control wpcf7-textarea" name="content" rows="10" cols="40" placeholder="Message" required="true"></textarea>
                                             </fieldset>
                                             <fieldset class="ol-form-group">
                                                 <input type="submit" class="wpcf7-form-control wpcf7-submit" value="SUBMIT">

@@ -5,59 +5,54 @@
  */
 
 import java.util.Properties;
-import javax.mail.*;
+import javax.mail.Message;
+import javax.mail.MessagingException;
+import javax.mail.Session;
+import javax.mail.Transport;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 
 /**
  *
- * @author nabeel
+ * @author zishan
  */
 public class EmailSender {
 
-    private final String to;
-
-    private final String subjet;
-
-    private final String body;
-
-    public EmailSender(String to, String subject, String body) {
-
-        this.to = to;
-
-        this.subjet = subject;
-
-        this.body = body;
+    //It is used to send email.
+    public boolean sendMail(String to, String subject, String content) {
+        String SMTP_HOST_NAME = "smtp.gmail.com";
+        int SMTP_HOST_PORT = 465;
+        String SMTP_AUTH_USER = "contactus5289@gmail.com";
+        String SMTP_AUTH_PWD = "hell0.w0rld";
+        Properties props = new Properties();
+        props.put("mail.transport.protocol", "smtps");
+        props.put("mail.smtps.host", SMTP_HOST_NAME);
+        props.put("mail.smtps.auth", "true");
+        props.put("mail.smtps.ssl.trust", "*");
+        Session mailSession = Session.getInstance(props);
+        // mailSession.setDebug(true);
+        try {
+            Transport transport = mailSession.getTransport();
+            transport.connect(SMTP_HOST_NAME, SMTP_HOST_PORT, SMTP_AUTH_USER, SMTP_AUTH_PWD);
+            MimeMessage message = new MimeMessage(mailSession);
+            message.setSubject(subject);
+            message.setContent(content, "text/html");
+            message.setFrom(new InternetAddress(SMTP_AUTH_USER));
+            message.setRecipient(Message.RecipientType.TO, new InternetAddress(to));
+            transport.sendMessage(message, message.getRecipients(Message.RecipientType.TO));
+            transport.close();
+            return true;
+        } catch (MessagingException me) {
+            System.out.println(me);
+            return false;
+        }
     }
 
-    public void send() {
+    public static void main(String[] args) {
 
-        //   String to = "sonoojaiswal1988@gmail.com";//change accordingly  
-        String from = "sonoojaiswal1987@gmail.com";
- 
+        EmailSender er = new EmailSender();
+        er.sendMail("nabeel.awt@gmail.com", "", "");
 
-        //Get the session object  
-        Properties properties = System.getProperties();
-        
-        properties.setProperty("mail.smtp.host", "smtp.gmail.com");
-        
-        Session session = Session.getDefaultInstance(properties);
-
-        //compose the message  
-        try {
-            MimeMessage message = new MimeMessage(session);
-            message.setFrom(new InternetAddress(from));
-            message.addRecipient(Message.RecipientType.TO, new InternetAddress(to));
-            message.setSubject(subjet);
-            message.setText(body);
-
-            // Send message  
-            Transport.send(message);
-            System.out.println("message sent successfully....");
-
-        } catch (MessagingException mex) {
-            mex.printStackTrace();
-        }
     }
 
 }
