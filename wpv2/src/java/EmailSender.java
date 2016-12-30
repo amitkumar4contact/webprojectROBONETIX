@@ -16,6 +16,7 @@ import javax.mail.internet.MimeMessage;
  *
  * @author zishan
  */
+
 public class EmailSender {
 
     //It is used to send email.

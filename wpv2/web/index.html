@@ -5,16 +5,16 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <title>Robonetix : Home</title>
+        <title>Proziod : Home</title>
         <!-- Favicon  use this for tab icon-->
-        <link rel="shortcut icon" type="image/icon" href="img/robonetix.png"/>
+        <link rel="shortcut icon" type="image/icon" href="img/robonetixlocking.png"/>
 
         <!-- -->
-        <link rel="shortcut icon" type="image/icon" href="video.css"/>
+        <link rel="shortcut icon" type="image/icon" href="img/robonetixlocking.png"/>
         <script src="videoj.js">
 
         </script>
-       
+
         <!-- Font Awesome -->
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
         <!-- Bootstrap -->
@@ -24,7 +24,7 @@
         <!-- Slick slider -->
         <link href="css/slick.css" rel="stylesheet">
         <!-- Theme color -->
-        <link href="css/theme-color/default.css" rel="stylesheet">  
+        <link href="css/theme-color/black.css" rel="stylesheet">  
 
         <!-- Main Style -->
         <link href="style.css" rel="stylesheet">
@@ -78,7 +78,7 @@
                                     <span class="icon-bar"></span>
                                 </button>
                                 <!-- Text Logo -->
-                                <a class="navbar-brand ol-logo" href="index.html"><span>Robonetix</span></a>
+                                <a class="navbar-brand ol-logo" href="index.html"><span>Proziod</span></a>
                                 <!-- Image Logo -->
                                 <!-- 				      <a class="navbar-brand ol-logo" href="index.html"><img src="img/logo.png" alt="Logo" /></a> -->
                             </div>
@@ -161,13 +161,13 @@
         <div class="homepage-hero-module">
             <div class="video-container">
                 <div class="filter"></div>
-                <video autoplay loop class="fillWidth">
+                <video autoplay loop style="width: 100%;height: auto;">
                     <source src="vid/PC-Typing.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
                     <source src="vid/PC-Typingw.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
                 </video>
-<!--                <div class="overlay">
-                    <p>Wn with us</p>
-                </div>-->
+                <!--                <div class="overlay">
+                                    <p>Wn with us</p>
+                                </div>-->
                 <div class="poster hidden">
                     <img src="img/PC-Typingj.jpg" alt="">
                 </div>
@@ -250,7 +250,7 @@
                                                         <p> 
 
 
-                                                            At Robonetix, we believe in the never-ending pursuit of excellence. We believe in going beyond traditional measurement metrics and truly immersing 
+                                                            At Proziod, we believe in the never-ending pursuit of excellence. We believe in going beyond traditional measurement metrics and truly immersing 
                                                             ourselves in our clients endeavor to improve customer centricity. This leads us to design different and more ingenious operating models that foster 
                                                             growth and manage cost, risk and compliance across a range of functions for our clients.
 
@@ -267,7 +267,15 @@
                                                             </span>
                                                         </p>
 
-                                                        <a class="ol-button ol-learn-more pointer" onclick="$('#readmore').show();" >Read More</a>
+                                                        <a class="ol-button ol-learn-more pointer" data-val="0" onclick="if ($(this).attr('data-val') == '1') {
+                                                                    $(this).attr('data-val', '0');
+                                                                    $(this).html('Read More');
+                                                                } else
+                                                                {
+                                                                    $(this).attr('data-val', '1');
+                                                                    $(this).html('Read less');
+                                                                }
+                                                                $('#readmore').toggle();" >Read More</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -298,7 +306,7 @@
                                                     <div class="ol-about-us-counter-item">
                                                         <i class="fa fa-smile-o ol-about-us-counter-icon" aria-hidden="true"></i>
                                                         <span class="ol-about-us-counter-no">
-                                                            350
+                                                            27
                                                         </span>
                                                         <span class="ol-about-us-counter-text">
                                                             Happy Clients
@@ -311,7 +319,7 @@
                                                     <div class="ol-about-us-counter-item">
                                                         <i class="fa fa-tasks ol-about-us-counter-icon" aria-hidden="true"></i>
                                                         <span class="ol-about-us-counter-no">
-                                                            560
+                                                            15
                                                         </span>
                                                         <span class="ol-about-us-counter-text">
                                                             Projects Completed
@@ -324,7 +332,7 @@
                                                     <div class="ol-about-us-counter-item">
                                                         <i class="fa fa-trophy ol-about-us-counter-icon" aria-hidden="true"></i>
                                                         <span class="ol-about-us-counter-no">
-                                                            120
+                                                            12
                                                         </span>
                                                         <span class="ol-about-us-counter-text">
                                                             Awards Received
@@ -337,7 +345,7 @@
                                                     <div class="ol-about-us-counter-item">
                                                         <i class="fa fa-heart-o ol-about-us-counter-icon" aria-hidden="true"></i>
                                                         <span class="ol-about-us-counter-no">
-                                                            1030
+                                                            510
                                                         </span>
                                                         <span class="ol-about-us-counter-text">
                                                             People Loved
@@ -437,7 +445,7 @@
                                                         <div class="ol-work-item-info">
                                                             <h2>Human Resources Shared Services</h2>
                                                             <a href="#"><img src="img/works/img-2.jpg" alt="img-2" /></a>
-                                                            <p> Robonetix's HR Shared Services practice uses a comprehensive approach to assist 
+                                                            <p> Proziod's HR Shared Services practice uses a comprehensive approach to assist 
                                                                 clients through the entire life cycle of shared services, from concept through 
                                                                 implementation. Our experience with more than 250 large, complex projects gives 
                                                                 us the knowledge and capabilities to address the organizational, functional, 
@@ -489,7 +497,7 @@
                                                             <a href="#"><img src="img/works/img-4.jpg" alt="img-4" /></a>
                                                             <p> 
                                                                 Insightful Analysis to Drive Your Customer Management Outsourcing Strategy. 
-                                                                Robonetix has developed the Customer Management Services Program as a dedicated 
+                                                                Proziod has developed the Customer Management Services Program as a dedicated 
                                                                 service for organizations evaluating, or actively engaged in, the outsourcing or 
                                                                 relocation of all or part of their customer management or contact center functions.
                                                             </p>
@@ -514,7 +522,7 @@
                                                             <h2>Knowledge Services </h2>
                                                             <a href="#"><img src="img/works/img-5.jpg" alt="img-5" /></a>
                                                             <p>
-                                                                Robonetix's Knowledge Management Services provide high-end customized research & 
+                                                                Proziod's Knowledge Management Services provide high-end customized research & 
                                                                 analytics solutions. Leveraging our experience, we empower our clients 
                                                                 to make informed strategic and operational decisions
                                                             </p>
@@ -541,7 +549,7 @@
                                                             <p>
 
                                                                 Disruption is creating great opportunities where technology meets business. 
-                                                                Through asset-powered agility, Robonetix helps organizations explore new ways to 
+                                                                Through asset-powered agility, Proziod helps organizations explore new ways to 
                                                                 continually find value through innovationmastering disruption by perceiving, 
                                                                 deciding and executing faster than the rest. Accenture helps its clients move from 
                                                                 data to decisions faster by adopting advanced analytics offerings, tools and techniques.
@@ -568,7 +576,7 @@
                                                             <p> 
 
                                                                 Get the flexibility you need to keep up with evolving customer expectations, demographics, 
-                                                                and demand with Robonetix for the banking and financial services industry. Boost profit 
+                                                                and demand with Proziod for the banking and financial services industry. Boost profit 
                                                                 margins across all channels and easily overcome challenges such as higher capital requirements, 
                                                                 stricter regulations, and the shift in digital banking with a range of best-in-class bank systems 
                                                                 and technology.
@@ -593,7 +601,7 @@
                                                         <div class="ol-work-item-info">
                                                             <h2>Master Data Management</h2>
                                                             <a href="#"><img src="img/works/img-8.jpg" alt="img-8" /></a>
-                                                            <p> Robonetix Master Data Management Services follows a clear set of processes and a centralized 
+                                                            <p> Proziod Master Data Management Services follows a clear set of processes and a centralized 
                                                                 governance structure to ensure data stewardship. This ensures rapid onboarding of data, 
                                                                 while providing scalability, flexibility, and standardized service delivery.</p>
                                                         </div>
@@ -762,11 +770,11 @@
                                     <div class="ol-image-parallax-area">
                                         <h1>Client Stories</h1>
                                         <p> 
-                                            After 4 problematic years we finally found Robonetix. 
-                                            Up to date it has been a pleasure working with Robonetix Their staff has worked closely with our organization, 
+                                            After 4 problematic years we finally found Proziod. 
+                                            Up to date it has been a pleasure working with Proziod Their staff has worked closely with our organization, 
                                             and collectively we have made excellent strides towards our goals during 
                                             the past 5 months. Our data management finally meets our expectations. 
-                                            Thanks to Robonetix we can finally see day light at the end of the tunnel. I
+                                            Thanks to Proziod we can finally see day light at the end of the tunnel. I
                                             highly recommend Blue Fountain Media to your organization. 
                                             Their staff has the skills to make your e-commerce dreams a reality. 
                                             I highly encourage you to learn what Blue Fountain has to offer your organization.
@@ -794,7 +802,7 @@
                                         <div class="ol-title-area">	
                                             <h2 class="ol-title">Frequently Asked Question</h2>
                                             <span class="ol-title-line"></span>
-                                            <p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                            <p>	Here are some FAQs </p>
                                         </div>
 
                                         <div class="ol-faq-content">	
@@ -839,7 +847,7 @@
 
                                                                             Any organization needs to spend considerable time and money to recruit and train in-house analytical help. At times they may not possess the required know-how to recruit such specialized staff or decide on the technologies that would be best suitable for carrying out analysis.
 
-                                                                            In these circumstances they rely on analytical vendors like Robonetix. Such vendors can closely work with the management team to help the organization to adopt analytics. The organization has to trust and co-operate with the vendors while sharing their data and researching it to make the analytics engagement a success.
+                                                                            In these circumstances they rely on analytical vendors like Proziod. Such vendors can closely work with the management team to help the organization to adopt analytics. The organization has to trust and co-operate with the vendors while sharing their data and researching it to make the analytics engagement a success.
 
                                                                             Organizations can follow another model in which they build an internal team to manage their relationships with an external analytical vendor. Many analytically mature companies resort to this to supplement their internal efforts.    
                                                                         </p>
@@ -1140,7 +1148,7 @@
                                             <span class="ol-title-line"></span>
                                             <p>If you want to work in a collaborative environment where opportunities are offered, skills 
                                                 are stretched and excellence is rewarded, you might be exactly what we are looking for.  
-                                                send your resume at <a href="mailto:hr@robonetix.com?Subject=Hello%20again" target="_top">hr@robonetix.com</a></p>
+                                                send your resume at <a href="mailto:hr@proziod.com?Subject=Hello%20again" target="_top">hr@proziod.com</a></p>
 
                                         </div>
 
@@ -1233,6 +1241,7 @@
                                         <div class="col-md-3 col-sm-6 col-xs-12">
                                             <div class="ol-footer-widget">
                                                 <h4 class="ol-footer-title">About Us</h4>
+
                                                 <p>	Follow us on Social Media: </p>
                                                 <ul class="ol-footer-widget-social">
                                                     <li><a href="#"><i class="fa fa-facebook">	</i></a></li>
@@ -1240,6 +1249,8 @@
                                                     <li><a href="#"><i class="fa fa-google-plus">	</i></a></li>
                                                     <li><a href="#"><i class="fa fa-linkedin">	</i></a></li>
                                                 </ul>
+                                                <br/><br/><br/>
+                                               
                                             </div>
                                         </div>
                                         <!-- start single widget -->
@@ -1265,11 +1276,14 @@
                                                 <h4 class="ol-footer-title">Our Service</h4>
 
                                                 <ul class="ol-footer-quick-link">
-                                                    <li><a href="#">Web Design</a></li>
-                                                    <li><a href="#">App Developing</a></li>
-                                                    <li><a href="#">Content Management</a></li>
-                                                    <li><a href="#">Social Media Marketing</a></li>
-                                                    <li><a href="#">Affiliate Marketing</a></li>
+                                                    <li><a href="#">Finance & Accounting Services</a></li>
+                                                    <li><a href="#">Human Resources Shared Services</a></li>
+                                                    <li><a href="#">IT services</a></li>
+                                                    <li><a href="#">Customer Management Services </a></li>
+                                                    <li><a href="#">Knowledge Services </a></li>
+                                                    <li><a href="#">Analytics </a></li>
+                                                    <li><a href="#">Banking and Financial Services </a></li>
+                                                    <li><a href="#">Master Data Management </a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1281,8 +1295,8 @@
                                                 <h4 class="ol-footer-title">Support</h4>
                                                 <p>	Our support available to help you 24 hours a day.</p>
                                                 <ul class="ol-widget-support">
-                                                    <li><i class="fa fa-clock-o"></i> Monday - Friday : 10am to 6pm</li>
-                                                    <li><i class="fa fa-clock-o"></i> Saturday : 12am to 5pm</li>
+                                                    <li><i class="fa fa-clock-o"></i> Monday - Friday : 7:10am to 3:30pm</li>
+                                                    <li><i class="fa fa-times-circle-o"></i> Saturday : Closed</li>
                                                     <li><i class="fa fa-times-circle-o"></i> Sunday : Closed</li>
                                                 </ul>
                                             </div>
@@ -1298,7 +1312,7 @@
                         <div class="ol-footer-bottom">
                             <div class="container">
                                 <div class="ol-footer-bottom-area">
-                                    <p>© All Right Reserved <a href="http://www.robonetix.com/" rel="nofollow">Robonetix</a></p>
+                                  <img src="img/2016123456-12-29.png" style="width: 200px;">   <p>© All Right Reserved <a href="http://www.proziod.com/" rel="nofollow">Proziod</a> 2016.</p>
                                 </div>
                             </div>
                         </div>

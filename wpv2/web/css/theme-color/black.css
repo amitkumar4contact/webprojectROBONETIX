@@ -1,0 +1,411 @@
+
+/*=======================================
+Template Design By MarkUps
+Author URI : http://www.markups.io/
+========================================*/
+
+#ol-main-slider .flexslider ul.slides li:before{
+	background-color: #33435B;
+}
+
+.ol-side-nav ul li a:hover,
+.ol-side-nav ul li a:focus{
+	color: #33435B;
+	border-color: #33435B;
+}
+
+.ol-side-menu-text p a{
+	color: #33435B;
+}
+
+.ol-side-menu-category li a{
+	color: #33435B;	
+}
+
+/* transparent navigation */
+
+.ol-transparent-nav li a:hover,
+.ol-transparent-nav li a:focus{
+	color: #33435B;
+}
+
+.ol-transparent-nav .current a {
+	color: #33435B;
+}
+
+.ol-transparent-nav a::before{
+	color: #33435B;
+	background: #33435B;
+}
+
+#ol-header.ol-transparent-header-fixed .ol-transparent-nav li a:hover,
+#ol-header.ol-transparent-header-fixed .ol-transparent-nav li a:focus,
+#ol-header.ol-transparent-header-fixed .ol-transparent-nav .current a{
+	color: #33435B;
+}
+
+.ol-transparent-nav .dropdown-menu li a:hover{
+	color: #33435B;
+}
+
+#ol-main-slider .flex-direction-nav a:hover{
+	background-color: #33435B;
+	border-color: #33435B;
+}
+
+#ol-main-slider .flex-control-paging li a{
+	border: 3px solid #33435B;
+}
+
+.ol-button.ol-learn-more {
+	background: #33435B;
+}
+
+.ol-learn-more::before {
+	border: 2px solid #33435B;
+}
+
+.ol-learn-more:hover {
+	color: #33435B;
+}
+
+.ol-button.ol-learn-more:focus{
+	background-color: #33435B;
+}
+
+.ol-about-us-img::after {
+  background: #33435B none repeat scroll 0 0;
+}
+
+.ol-about-us-right-content ul li:before{
+	color: #33435B;
+}
+
+.ol-about-us-counter-item .ol-about-us-counter-icon{
+	background: #33435B none repeat scroll 0 0;
+}
+
+.ol-service-icon{
+	color: #33435B;
+}
+
+.ol-work-item-thumbonil:before{
+	background-color: #33435B;
+}
+
+.ol-work-item-link{
+	background-color: #33435B;
+}
+
+.ol-testimonial-quote{
+	color: #33435B;	
+}
+
+.ol-clients-status{
+	color: #33435B;
+}
+
+.ol-clients-testimonial-slider .slick-dots li.slick-active button{
+	background-color: #33435B;
+}
+
+.ol-our-team-info{
+	background-color: #33435B;
+}
+
+.ol-our-team-social a:hover,
+.ol-our-team-social a:focus{
+	color: #33435B;
+}
+
+.ol-our-team-slide .slick-prev,
+.ol-our-team-slide .slick-next {
+	background-color: #33435B;
+}
+
+.ol-price-table-sinlge:hover .ol-learn-more{
+	color: #33435B;
+	border: 1px solid #33435B;	
+}
+
+.ol-price-popular-tag{
+	background-color: #33435B;
+}
+
+#ol-video-play-btn:hover,
+#ol-video-play-btn:focus{
+	background-color: #33435B;
+}
+
+.ol-faq-panel-group .panel-default .panel-heading .panel-title a:hover{
+	color: #33435B;
+}
+
+.ol-subscribe-form input[type="email"]:focus{
+	border-color: #33435B; 
+}
+
+.ol-subscribe-form .ol-subcribe-btn{
+	background-color: #33435B;
+}
+
+.ol-blog-title a:hover,
+.ol-blog-title a:focus{
+	color: #33435B;
+}
+
+.ol-blog-meta li a:hover,
+.ol-blog-meta li a:focus{
+	color: #33435B;
+}
+
+.ol-blog-item-bottom .ol-blog-item-comments:hover,
+.ol-blog-item-bottom .ol-blog-item-comments:focus{
+	color: #33435B;
+}
+
+.ol-blog-item-bottom .ol-read-more{
+	color: #33435B;
+}
+
+.wpcf7-form .wpcf7-submit:hover{
+	background-color: #33435B;
+	border-color: #33435B;
+}
+
+.ol-single-contact-feature i{
+	color: #33435B;
+}
+
+#ol-footer-callto-action{
+	background-color: #33435B;
+}
+
+.ol-call-to-btn:hover,
+.ol-call-to-btn:focus{
+	color: #33435B;
+}
+
+.ol-footer-widget-social li a:hover,
+.ol-footer-widget-social li a:focus{
+	background-color: #33435B;
+	border-color: #33435B;
+}
+
+.ol-footer-quick-link li a:hover,
+.ol-footer-quick-link li a:focus{
+	color: #33435B;
+}
+
+.ol-footer-bottom-area p a:hover,
+.ol-footer-bottom-area p a:focus{
+	color: #33435B;
+}
+
+#ol-preloader-wrapper{
+	background-color: #33435B;
+}
+
+.ol-scroll-top {
+	background-color: #33435B;
+}
+
+.ol-our-team-slide .slick-dots li{
+  border: 3px solid #33435B;
+}
+
+.ol-our-team-slide .slick-dots li.slick-active{
+	background-color: #33435B;
+}
+
+.ol-breadcrumb li.active{
+	color: #33435B;
+}
+
+.ol-blog-item-blockquote blockquote i{
+	color: #33435B;	
+}
+
+.ol-blog-single-sidebar ul li a:hover,
+.ol-blog-single-sidebar ul li a:focus{
+	color: #33435B;
+}
+
+.ol-sidebar-title{
+	color: #33435B;
+}
+
+.ol-side-catg-nav li:hover,
+.ol-side-catg-nav li:focus{
+	color: #33435B;
+}
+
+.ol-side-latest-post .ol-blog-item-tag{
+	color: #33435B;
+}
+
+.tagcloud a:hover,
+.tagcloud a:focus{
+	border-color: #33435B;
+	color: #33435B;
+}
+
+.ol-text-widget a{
+	color: #33435B;
+}
+
+.ol-blog-pagination li a:hover,
+.ol-blog-pagination li a:focus,
+.ol-blog-pagination li span:hover,
+.ol-blog-pagination li span:focus,
+.ol-blog-pagination li .current{
+	background-color: #33435B;
+	border-color: #33435B;	
+}
+
+.ol-blog-search input[type="text"]:focus{
+	border-color: #33435B;	
+}
+
+.ol-newsletter .ol-subscribe-form .ol-subcribe-btn:hover{
+	background-color: #33435B;
+	border-color: #33435B;
+}
+
+.ol-social-widget a:hover,
+.ol-social-widget a:focus{
+	background-color: #33435B;
+	border-color: #33435B;
+}
+
+.ol-blog-navigation a:hover,
+.ol-blog-navigation a:focus{
+	border-color: #33435B;
+	color: #33435B;
+}
+
+.ol-blog-details .ol-blog-item-content a{
+	color: #33435B;
+}
+
+.ol-blog-details .ol-blog-item-content a:hover,
+.ol-blog-details .ol-blog-item-content a:focus{
+	color: #33435B;
+}
+
+.ol-post-share li a:hover,
+.ol-post-share li a:focus,
+.ol-post-tag li a:hover,
+.ol-post-tag li a:focus{
+	color: #33435B;
+}
+
+.ol-comments-area .comments .commentlist li .reply-btn:hover, 
+.ol-comments-area .comments .commentlist li .reply-btn:focus {
+  color: #33435B;
+}
+
+.ol-comments-area .comments .comments-pagination li a:hover, 
+.ol-comments-area .comments .comments-pagination li a:focus {
+	border-color: #33435B;
+	color: #33435B;
+}
+
+#respond input[type="text"]:focus,
+#respond input[type="email"]:focus,
+#respond input[type="url"]:focus,
+#respond textarea:focus{
+	border-color: #33435B;
+}
+
+#respond input[type="submit"]:hover{
+	background-color: #33435B;
+	border-color: #33435B;
+}
+
+.ol-cart-btn{
+	background-color: #33435B;
+}
+
+.ol-portfolio-navigation a:hover,
+.ol-portfolio-navigation a:focus{
+	border-color: #33435B;
+	color: #33435B;
+}
+
+.ol-portfolio-detail-info a:hover,
+.ol-portfolio-detail-info a:focus{
+	color: #33435B;
+}
+
+.ol-portfolio-detail-share a:hover,
+.ol-portfolio-detail-share a:focus{
+	color: #33435B;
+}
+
+.ol-portfolio-related-project h3{
+	color: #33435B;
+}
+
+.ol-work-item-related-thumbonil:before{
+	background-color: #33435B;
+}
+
+.ol-work-related-link{
+	background-color: #33435B;
+}
+
+.ol-related-project-slide .slick-prev::before, 
+.ol-related-project-slide .slick-next::before {
+  color: #33435B;
+}
+
+.ol-portfolio #ol-header.ol-header-box-fixed {
+  background-color: #33435B !important;
+}
+
+.ol-page #ol-header.ol-header-box-fixed{
+	background-color: #33435B !important;
+}
+
+
+.ol-blog #ol-header.ol-header-box-fixed{
+	background-color: #33435B !important;
+}
+
+.ol-error-page h2 {
+	color: #33435B;
+}
+
+.ol-service-item:hover .ol-service-icon{
+	border-color: #33435B;
+	background-color: #33435B;
+} 
+
+.wpcf7-form .wpcf7-text:focus,
+.wpcf7-form .wpcf7-textarea:focus{
+	border-color: #33435B;
+}
+
+#ol-header .navbar-header .navbar-toggle {
+	background-color: #33435B;
+}
+
+.ol-blog-item-link-post a:hover,
+.ol-blog-item-link-post a:focus{
+	background-color: #33435B;
+}
+
+.ol-author-social li a:hover,
+.ol-author-social li a:focus{
+	border-color: #33435B;
+	color: #33435B;
+}
+
+
+
+
+/*=======================================
+Template Design By MarkUps
+Author URI : http://www.markups.io/
+========================================*/
